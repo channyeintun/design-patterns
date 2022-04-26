@@ -15,21 +15,20 @@ class Namer {
     protected String first; //store first name here
 
     public String getFirst() {
-        return first;
+        return first;//return first name
     }
 
     public String getLast() {
-        return last;
+        return last;//return last name
     }
 
 }
 
-class FirstFirst extends Namer {
+class FirstFirst extends Namer {//split first last
 
     public FirstFirst(String s) {
-        int i = s.lastIndexOf(" ");
+        int i = s.lastIndexOf(" ");//find sep space
         if (i > 0) {
-            //split first last //find sep space
             //left is first name
             first = s.substring(0, i).trim();
             //right is last name
@@ -41,7 +40,7 @@ class FirstFirst extends Namer {
     }
 }
 
-class LastFirst extends Namer { //split last, first //find comma
+class LastFirst extends Namer { //split last, first
 
     public LastFirst(String s) {
         int i = s.indexOf(","); //find comma
