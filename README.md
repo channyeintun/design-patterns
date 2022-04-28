@@ -17,7 +17,7 @@
  - **The Flyweight pattern**, which provides a way to limit the proliferation of small, similar class instances by moving some of the class data outside the class and passing it in during various execution methods.  
  - **The Proxy pattern**, which provides a simple place-holder class for a more complex class which is expensive to instantiate.
 
-## SUMMARY OF STRUCTURAL PATTERNS
+## SUMMARY OF BEHAVIORAL PATTERNS
  - The **Observer pattern** defines the way a number of classes can be notified of a change,  
  - The **Mediator** defines how communication between classes can be simplified by using another class to keep all classes from having to know about each other.  
  - The **Chain of Responsibility** allows an even further decoupling between classes, by passing a request between classes until it is recognized.  
